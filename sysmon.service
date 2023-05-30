@@ -1,9 +1,9 @@
 [Unit]
-Description=sysmon
+Description=Systemmonitoring via Home Assistant
 After=network-online.target
 
 [Service]
-ExecStart=/PATH_HERE/sysmon.sh
+ExecStart=/opt/sysmon.sh
 Restart=always
 
 [Install]
