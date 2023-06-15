@@ -3,7 +3,7 @@ Description=Systemmonitoring via Home Assistant
 After=network-online.target
 
 [Service]
-ExecStart=/opt/sysmon.sh
+ExecStart=/opt/hass-sysmon/sysmon.sh
 Restart=always
 
 [Install]
